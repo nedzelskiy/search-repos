@@ -1,0 +1,8 @@
+.search-button {
+  color: white;
+  background-color: dodgerblue;
+
+  &.disabled {
+    background-color: darkgray;
+  }
+}

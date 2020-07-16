@@ -1,0 +1,42 @@
+.app {
+  padding-top: 20px;
+
+  .select {
+    margin-bottom: 12px;
+  }
+
+  label {
+    display: block;
+    font-size: 1.1rem;
+    margin: 2px 0 5px 0;
+  }
+
+  .fetch-error {
+    color: red;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .button-area {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .search-query-result {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 1.1rem;
+
+    pre {
+      color: #05a1dd;
+      margin: 5px 0;
+      font-size: 1.3rem;
+    }
+  }
+
+  @media all and (max-width: 380px) {
+    max-width: 300px;
+  }
+}

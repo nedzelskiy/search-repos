@@ -1,0 +1,14 @@
+.paginate-arrow {
+  padding: 10px 15px;
+  color: #6fa293;
+  border-radius: 9px;
+  cursor: pointer;
+  border: 1px solid #6fa293;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  &:hover {
+    color: white;
+    background-color: #6fa293;
+  }
+}

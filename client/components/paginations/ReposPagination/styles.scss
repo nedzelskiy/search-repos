@@ -1,0 +1,23 @@
+.repos-pagination {
+  margin: 40px 0;
+
+  .repository-count-info {
+    font-size: 1.3rem;
+    margin: 20px 0;
+  }
+
+  .paginate-arrow {
+    margin: 10px 20px 0 0;
+
+    &.disabled {
+      background-color: darkgray;
+      color: white;
+      border: none;
+
+      &:hover {
+        background-color: darkgray;
+        color: white;
+      }
+    }
+  }
+}
